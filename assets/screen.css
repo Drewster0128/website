@@ -35,4 +35,19 @@ li {
   padding-bottom: 5px;
 }
 
+nav ul {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  .schools {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+
+
 /* Begin site styles below */
