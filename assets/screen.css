@@ -6,17 +6,24 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
 html {
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 24px;
   margin: 10px;
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: white;
 }
 h1 {
+  display: flex;
+  justify-content: center;
   font-size: 24px;
   line-height: 30px;
+  background-color: blue;
 }
 h2 {
   font-size: 22px;
   line-height: 26px;
+  background-color: blue;
 }
 h3 {
   font-size: 20px;
@@ -40,11 +47,64 @@ nav ul {
   flex-direction: column;
 }
 
+img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  text-align: center;
+}
+
+.contact-info,
+.highschool-info,
+.college-info,
+#skills ul,
+.awards-and-achievements,
+.jewel-job-description,
+.clubs ul,
+.quick-facts,
+.interest ul,
+.hobbies ul {
+  list-style-type: circle;
+  margin-left: 10px;
+}
+
+.clubs p {
+  padding: 10px;
+}
+
 @media screen and (min-width: 500px) {
+  img {
+    max-width: 50%;
+    text-align: center;
+  }
   .schools {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .contact-info {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 590px) {
+  #pic-and-text {
+    display: flex;
+    flex-direction: row;
+  }
+  img {
+    max-width: 100%;
+  }
+  #pic-and-text p {
+    padding: 15px;
   }
 }
 
