@@ -19,6 +19,7 @@ html {
   padding-left: 10%;
 }
 
+
 h1 {
   font-size: 24px;
   line-height: 30px;
@@ -76,4 +77,29 @@ nav li {
 #skills ul {
   list-style-type: circle;
   margin-left: 3%;
+}
+
+@media screen and (min-width: 842px) {
+  main {
+    display: flex;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width: 800px;
+  }
+
+  .contact-info {
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+  }
+
+  .contact-info li {
+    padding-right: 5.5%;
+  }
+
+  .schools {
+    flex-direction: row;
+    justify-content: center;
+  }
 }
