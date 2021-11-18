@@ -32,18 +32,27 @@ h2 {
 h3 {
   font-size: 20px;
   line-height: 24px;
-  margin-left: 30px;
+  padding: 1.25%;
 }
 
 h4 {
   font-size: 18px;
-  margin-left: 60px;
-}
-
-ul {
   margin-left: 30px;
 }
 
-p {
-  margin-left: 90px;
+nav li {
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+
+.contact-info li {
+  padding: 1.25%;
+}
+
+.highschool-info li {
+  padding: 1.25%;
+}
+
+.college-info li {
+  padding: 1.25%;
 }
