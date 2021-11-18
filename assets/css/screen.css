@@ -29,6 +29,8 @@ h2 {
   font-size: 22px;
   line-height: 26px;
   color: blue;
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 h3 {
@@ -42,19 +44,36 @@ h4 {
   margin-left: 30px;
 }
 
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
 nav li {
-  padding-top: 1.5%;
-  padding-bottom: 1.5%;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
-.contact-info li {
-  padding: 1.25%;
+.contact-info {
+  display: flex;
+  flex-direction: column;
 }
 
-.highschool-info li {
-  padding: 1.25%;
+.schools {
+  display: flex;
+  flex-direction: column;
 }
 
-.college-info li {
-  padding: 1.25%;
+.contact-info,
+.highschool-info,
+.college-info,
+.awards-and-achievements,
+.jewel-job-description,
+.clubs ul,
+.quick-facts,
+.interest ul,
+.hobbies ul,
+#skills ul {
+  list-style-type: circle;
+  margin-left: 3%;
 }
