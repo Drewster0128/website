@@ -12,7 +12,7 @@ html {
   font-size: 1.125em; /* 18/16 */
   line-height: 1.5555555556em; /* 28/18 */
   font-family: Helvetica, sans-serif;
-  background-color: gray;
+  background-color: #cccccc;
   color: black;
 }
 
@@ -52,7 +52,7 @@ p {
   margin-right: 10%;
 }
 
- nav li {
+nav li {
   margin-top: 1%;
   margin-bottom: 1%;
 }
