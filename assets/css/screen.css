@@ -26,7 +26,7 @@ h1 {
   justify-content: center;
   font-size: 1.333333333em;
   line-height: 1.07142857em;
-  background-color: blue;
+  color: blue;
   margin-top: 1.07142857em;
 }
 
@@ -40,6 +40,7 @@ h2 {
 h3 {
   font-size: 1.11111111em;
   padding: 1.25%;
+  text-decoration: underline;
 }
 
 h4 {
@@ -149,9 +150,7 @@ img {
   }
 
   img {
-    max-width: 80%;
-    padding-left: 10%;
-    padding-right: 10%;
+    max-width: 100%;
   }
 
   .contact-info {
@@ -214,6 +213,7 @@ img {
     display: flex;
     flex-direction: row;
     padding-top: 3%;
+    padding-left: 10%;
   }
 
   #skills ul {
