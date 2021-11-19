@@ -10,7 +10,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 html {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 28px;
   font-family: Helvetica, sans-serif;
   background-color: gray;
   color: black;
@@ -107,12 +107,13 @@ img {
 }
 
 @media screen and (min-width: 842px) {
-  main {
+
+  #resume {
     display: flex;
-    justify-content: center;
-    padding-left: 25%;
-    padding-right: 5%;
-    max-width: 700px;
+    flex-direction: column;
+    align-items: baseline;
+    padding-left: 15%;
+    max-width: 900px;
   }
 
   nav ul {
@@ -129,11 +130,11 @@ img {
   .contact-info {
     flex-direction: row;
     list-style-type: none;
-    justify-content: space-between;
+    flex-wrap: nowrap;
   }
 
   .contact-info li {
-    padding-left: 5%;
+    padding-left: 2%;
   }
 
 
