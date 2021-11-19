@@ -50,11 +50,6 @@ h4 {
   margin-left: 30px;
 }
 
-nav {
-  display: flex;
-  flex-direction: column;
-}
-
 nav li {
   padding-top: 1%;
   padding-bottom: 1%;
@@ -88,23 +83,35 @@ nav li {
   main {
     display: flex;
     justify-content: center;
-    padding-left: 15%;
-    padding-right: 15%;
-    max-width: 800px;
+    padding-left: 25%;
+    padding-right: 5%;
+    max-width: 700px;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav li {
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
   .contact-info {
     flex-direction: row;
     list-style-type: none;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .contact-info li {
-    padding-right: 5.5%;
+    padding-left: 5%;
   }
+
 
   .schools {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
   }
 }
