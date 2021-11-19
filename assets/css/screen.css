@@ -52,9 +52,25 @@ p {
   margin-right: 10%;
 }
 
-nav li {
+ nav li {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+nav a {
+  background-color: #0066cc;
+  color: black;
+  text-decoration: none;
+  display: block;
   padding-top: 1%;
   padding-bottom: 1%;
+  padding-left: 3%;
+}
+
+nav a:hover,
+nav a:active,
+nav a:focus {
+  background-color: #66ccff;
 }
 
 img {
@@ -69,6 +85,10 @@ img {
 .schools {
   display: flex;
   flex-direction: column;
+}
+
+.text {
+  margin-left: 5%;
 }
 
 .contact-info,
@@ -94,13 +114,21 @@ img {
   }
   nav ul {
     display: flex;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #3399ff;
     flex-direction: row;
     justify-content: center;
   }
 
   nav li {
+    margin: 0;
     padding-left: 1.07142857em;
     padding-right: 1.07142857em;
+  }
+
+  nav a {
+    padding: 0;
   }
 
   p {
