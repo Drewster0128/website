@@ -148,12 +148,6 @@ img {
     flex-direction: row;
   }
 
-  #skills ul {
-    display: flex;
-    flex-direction: column;
-    padding-left: 10%;
-  }
-
   .awards-and-achievements {
     padding-left: 10%;
   }
@@ -196,6 +190,12 @@ img {
     flex-direction: row;
     padding-top: 3%;
   }
+
+  #skills ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  }
 }
 
 @media screen and (min-width: 1020px) {
@@ -206,22 +206,11 @@ img {
     padding-bottom: 1%;
     padding-top: 1%;
   }
-  nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-
-  nav li {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 
   p {
     padding: 0;
     padding-top: 1%;
     padding-bottom: 1%;
-    margin-right: 30%;
   }
 
   h3 {
@@ -230,33 +219,18 @@ img {
     padding-top: 1%;
   }
 
-  h4 {
-    margin-left: 0;
-  }
-
   .contact-info {
     padding-left: 20%;
     padding-right: 20%;
-    justify-content: space-around;
-    flex-direction: row;
-    list-style-type: none;
   }
 
   .contact-info li {
     padding-right: 2%;
   }
 
-
   .schools {
     padding-left: 20%;
     padding-right: 13%;
-    flex-direction: row;
-  }
-
-  #skills ul {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20%;
   }
 
   .awards-and-achievements {
@@ -285,5 +259,9 @@ img {
 
   #college {
     padding-left: 5%;
+  }
+
+  #skills ul {
+    padding-left: 20%;
   }
 }
