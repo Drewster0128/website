@@ -87,17 +87,95 @@ img {
   list-style-type: circle;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
+
+  h2 {
+    padding: 0;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  p {
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 15%;
+  }
+
+  h3 {
+    padding: 0;
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+
+  h4 {
+    margin-left: 0;
+  }
+
   img {
     max-width: 80%;
     padding-left: 10%;
     padding-right: 10%;
   }
 
-  #pic-and-text {
-    display: flex;
+  .contact-info {
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
     flex-direction: row;
-    padding-top: 3%;
+    list-style-type: none;
+  }
+
+  .contact-info li {
+    padding-right: 1%;
+  }
+
+
+  .schools {
+    padding-left: 10%;
+    padding-right: 7%;
+    flex-direction: row;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+  }
+
+  .awards-and-achievements {
+    padding-left: 10%;
+  }
+
+  .companies {
+    padding-left: 10%;
+  }
+
+  .companies h3,
+  .clubs h3 {
+    padding: 0;
+    padding-bottom: 1%;
+  }
+
+  .clubs {
+    padding-left: 10%;
+  }
+
+  .quick-facts,
+  .interest,
+  .hobbies {
+    padding-left: 10%;
   }
 
   .pic {
@@ -108,9 +186,19 @@ img {
     flex: 7;
     margin-right: 10%;
   }
+
+  #college {
+    padding-left: 3%;
+  }
+
+  #pic-and-text {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3%;
+  }
 }
 
-@media screen and (min-width: 842px) {
+@media screen and (min-width: 1020px) {
 
   h2 {
     padding: 0;
@@ -139,6 +227,7 @@ img {
   h3 {
     padding: 0;
     padding-bottom: 1%;
+    padding-top: 1%;
   }
 
   h4 {
@@ -178,7 +267,19 @@ img {
     padding-left: 20%;
   }
 
+  .companies h3,
+  .clubs h3 {
+    padding: 0;
+    padding-bottom: 1%;
+  }
+
   .clubs {
+    padding-left: 20%;
+  }
+
+  .quick-facts,
+  .interest,
+  .hobbies {
     padding-left: 20%;
   }
 
