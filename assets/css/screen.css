@@ -18,8 +18,7 @@ html {
 
 main {
   padding-bottom: 10%;
-  padding-left: 10%;
-  margin-right: 10%;
+  padding-left: 5%;
 }
 
 h1 {
@@ -48,6 +47,12 @@ h3 {
 h4 {
   font-size: 18px;
   margin-left: 30px;
+}
+
+p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-right: 10%;
 }
 
 nav li {
@@ -80,7 +85,6 @@ img {
 .hobbies ul,
 #skills ul {
   list-style-type: circle;
-  margin-left: 3%;
 }
 
 @media screen and (min-width: 600px) {
@@ -108,14 +112,12 @@ img {
 
 @media screen and (min-width: 842px) {
 
-  #resume {
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    padding-left: 15%;
-    max-width: 900px;
+  h2 {
+    padding: 0;
+    padding-left: 20%;
+    padding-bottom: 1%;
+    padding-top: 1%;
   }
-
   nav ul {
     display: flex;
     flex-direction: row;
@@ -127,19 +129,60 @@ img {
     padding-right: 30px;
   }
 
+  p {
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-right: 30%;
+  }
+
+  h3 {
+    padding: 0;
+    padding-bottom: 1%;
+  }
+
+  h4 {
+    margin-left: 0;
+  }
+
   .contact-info {
+    padding-left: 20%;
+    padding-right: 20%;
+    justify-content: space-around;
     flex-direction: row;
     list-style-type: none;
-    flex-wrap: nowrap;
   }
 
   .contact-info li {
-    padding-left: 2%;
+    padding-right: 2%;
   }
 
 
   .schools {
+    padding-left: 20%;
+    padding-right: 13%;
     flex-direction: row;
-    justify-content: space-between;
+  }
+
+  #skills ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20%;
+  }
+
+  .awards-and-achievements {
+    padding-left: 20%;
+  }
+
+  .companies {
+    padding-left: 20%;
+  }
+
+  .clubs {
+    padding-left: 20%;
+  }
+
+  #college {
+    padding-left: 5%;
   }
 }
