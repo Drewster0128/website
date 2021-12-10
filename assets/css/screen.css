@@ -8,6 +8,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
+/* font-size: 16px
+  line-heiht: 18px
+  Modular scale for font: 1.3333
+  Modular scale for line-height: 1.4 */
+
 html {
   font-size: 1.125em; /* 18/16 */
   line-height: 1.5555555556em; /* 28/18 */
@@ -24,33 +29,37 @@ main {
 h1 {
   display: flex;
   justify-content: center;
-  font-size: 1.333333333em;
-  line-height: 1.07142857em;
+  font-size: 2.639rem;
+  line-height: 1.4em;
   color: blue;
   margin-top: 1.07142857em;
 }
 
 h2 {
-  font-size: 1.22222222em;
+  font-size: 1.77777777rem;
+  line-height: 1.4em;
   color: blue;
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
 h3 {
-  font-size: 1.11111111em;
+  font-size: 1.3333333rem;
+  line-height: 1.4em;
   padding: 1.25%;
   text-decoration: underline;
 }
 
 h4 {
   margin-left: 1.07142857em;
+  line-height: 1.4em;
 }
 
 p {
   padding-top: 3%;
   padding-bottom: 3%;
   margin-right: 10%;
+  line-height: 1.4em;
 }
 
 nav li {
